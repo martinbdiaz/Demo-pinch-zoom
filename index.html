@@ -23,6 +23,7 @@
     <script>
         $(window).load(function(){
             $('#img1').parent().css('height',$('#img1').height())
+            $('#img1').parent().css('width',$('#img1').width())
             var myElement = document.getElementById('img1')
             var pz = new PinchZoom.default(myElement, {minZoom:1})
         })
